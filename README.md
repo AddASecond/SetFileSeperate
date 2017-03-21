@@ -1,4 +1,5 @@
 # SetFileSeperate
+# Functions
 This program obtains orginal set file and randomly seperate it into train_val or test set file line by line. 
 # Input Parameters	
 if (argc != 4) {  
