@@ -15,8 +15,6 @@ int main(int argc, char** argv) {
 		return 1;
 	}
 
-
-
 	fstream _originalSetFile;
 	fstream _trainSetFile;
 	fstream _testSetFile;
