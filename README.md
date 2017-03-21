@@ -2,12 +2,8 @@
 # Functions
 This program obtains orginal set file and randomly seperate it into train_val or test set file line by line. 
 # Input Parameters	
-if (argc != 4) {  
-		std::cerr << "This program obtains orginal set file and randomly seperate it into train_val or test set file line by line. \n"  
-			<< "Usage: " << argv[0]  
-			<< " \"Path of original set file\" "  
-			<< " \"Path of train_val set file\""  
-			<< " \"Path of test set file\"" << std::endl;  
-		system("pause");  
-		return 1;  
-	}  
+Note that you need to manually create all directories, this is not included in the program.
+argv[0]: *.exe  
+argv[1]: your directory + *.set  //original set file location  
+argv[2]: your directory + *.set	 //train set file location  
+argv[3]: your directory + *.set  //test set file location  
